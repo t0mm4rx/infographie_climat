@@ -3,6 +3,7 @@
   --gray: #584F50;
   --light-gray: #585455;
   --white-blue: #F9FAFF;
+  --white-blue-darker: #F9FAFF;
 }
 
 body, html {
@@ -11,7 +12,46 @@ body, html {
   font-family: 'Open Sans';
 }
 
+#table-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#pre-table {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+}
+
+#pre-table img:first-child {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 25%;
+}
+
+#pre-table img:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%) scaleX(-1);
+  left: 75%;
+}
+
+#pre-table h2 {
+  font-weight: normal;
+  color: var(--light-gray);
+}
+
+#pre-table h2 span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 table {
+  margin: 0;
   border-collapse: collapse;
 }
 
@@ -39,6 +79,14 @@ table th:nth-child(2) {
 table th:last-child {
   border-radius: 0 30px 30px 0;
   padding-right: 24px;
+}
+
+table tr {
+  border-top: 1px solid var(--white-blue);
+}
+
+table tr:first-child {
+  border: none;
 }
 
 table td {

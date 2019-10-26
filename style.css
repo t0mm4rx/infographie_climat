@@ -30,14 +30,14 @@ body, html {
   position: absolute;
   bottom: 0;
   transform: translateX(-50%);
-  left: 25%;
+  left: 30%;
 }
 
 #pre-table img:nth-child(2) {
   position: absolute;
   bottom: 0;
   transform: translateX(-50%) scaleX(-1);
-  left: 75%;
+  left: 70%;
 }
 
 #pre-table h2 {
@@ -95,6 +95,17 @@ table td {
   text-align: center;
   font-weight: bold;
   color: var(--light-gray);
+}
+
+table td img {
+  display: block;
+  margin: auto;
+  max-width: 40px;
+}
+
+.row-rain img {
+  height: 20px;
+  width: auto;
 }
 
 table td:nth-child(2n) {

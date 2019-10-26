@@ -58,6 +58,7 @@ table {
 table th {
   border: none;
   padding: 10px;
+  font-weight: normal;
   background-color: var(--gray);
   color: white;
   margin: 0;
@@ -90,8 +91,9 @@ table tr:first-child {
 }
 
 table td {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
+  font-weight: bold;
   color: var(--light-gray);
 }
 
@@ -109,4 +111,8 @@ table td:first-child {
 table td:first-child span {
   font-weight: normal;
   font-size: .8em;
+}
+
+table td img {
+
 }

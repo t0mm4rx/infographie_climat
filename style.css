@@ -54,6 +54,7 @@ body, html {
 table {
   margin: 0;
   border-collapse: collapse;
+  width: 100%;
 }
 
 table th {

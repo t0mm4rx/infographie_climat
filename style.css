@@ -24,20 +24,21 @@ body, html {
   justify-content: center;
   margin: 0;
   position: relative;
+  margin-left: 20vw;
 }
 
 #pre-table img:first-child {
   position: absolute;
   bottom: 0;
   transform: translateX(-50%);
-  left: 30%;
+  left: 27%;
 }
 
 #pre-table img:nth-child(2) {
   position: absolute;
   bottom: 0;
   transform: translateX(-50%) scaleX(-1);
-  left: 70%;
+  left: 73%;
 }
 
 #pre-table h2 {
@@ -58,7 +59,7 @@ table {
 table th {
   border: none;
   padding: 10px;
-  font-weight: normal;
+  font-weight: bold;
   background-color: var(--gray);
   color: white;
   margin: 0;
